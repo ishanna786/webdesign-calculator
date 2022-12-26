@@ -1,0 +1,51 @@
+.main{
+    text-align: center;
+}
+table{
+    
+    font-size: 300%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: black;
+margin-left: auto;
+margin-right: auto;
+}
+
+td{
+    border: 2px solid white ;
+    border-collapse: collapse;
+    padding: 30px;
+
+    
+}
+tr{
+}
+
+td:hover{
+    background-color: pink;
+    color: black;
+}
+.eq{
+    background-color: orange;
+}
+.begu{
+    background-color: purple;
+}
+h1{
+    font-size: 350%;
+    text-align: center;
+}
+input{
+    width: 440px;
+    height: 100px;
+    font-size: 300%;
+}
+.grid{
+    display: grid;
+    background-color: aquamarine;
+    grid-template-columns: auto auto auto;
+}.grid> div{
+    border: 2px solid black;
+    padding: 20px;
+
+}
